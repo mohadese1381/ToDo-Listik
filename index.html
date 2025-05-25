@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <title>ToDo-List</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="todolist-box">
+      <header>
+        <h1>ToDo Listik✅</h1>
+      </header>
+      <main>
+        <section class="task-handler">
+          <div id="Add">
+            <input id="task-title" type="text" value="Write Task Content" />
+            <button id="add-taskBtn">Add Task</button>
+          </div>
+          <div class="filter-handler">
+            <button id="showAllBtn">All</button>
+
+            <button id="showCheckedBtn">Done</button>
+
+            <button id="showUncheckedBtn">Todo</button>
+          </div>
+          <div id="message"></div>
+          <div class="show-container">
+            <ul id="showList"></ul>
+          </div>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
